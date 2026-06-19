@@ -1,0 +1,34 @@
+.skills-section{
+  padding:100px 0;
+}
+
+.skill-card{
+
+  background:rgba(255,255,255,.05);
+
+  backdrop-filter:blur(10px);
+
+  border:1px solid rgba(255,255,255,.1);
+
+  border-radius:20px;
+
+  text-align:center;
+
+  padding:35px;
+
+  transition:.4s;
+}
+
+.skill-card:hover{
+
+  transform:translateY(-10px);
+
+  border-color:#f59e0b;
+}
+
+.skill-card svg{
+
+  color:#f59e0b;
+
+  margin-bottom:20px;
+}

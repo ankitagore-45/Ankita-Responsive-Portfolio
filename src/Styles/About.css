@@ -1,0 +1,25 @@
+.timeline{
+  border-left:3px solid #ffc107;
+  padding-left:30px;
+}
+
+.timeline-item{
+  margin-bottom:35px;
+  position:relative;
+}
+
+.timeline-item::before{
+  content:'';
+  width:16px;
+  height:16px;
+  background:#ffc107;
+  border-radius:50%;
+  position:absolute;
+  left:-39px;
+  top:6px;
+}
+
+.timeline-item span{
+  color:#ffc107;
+  font-weight:600;
+}
