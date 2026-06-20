@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark custom-nav fixed-top">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
+        <a className="navbar-brand fw-bold" href="#home">
           Ankita
         </a>
 
@@ -22,7 +22,7 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a href="#Skills" className="nav-link">Skills</a>
+              <a href="#skills" className="nav-link">Skills</a>
             </li>
 
             <li className="nav-item">

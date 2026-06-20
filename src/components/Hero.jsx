@@ -2,7 +2,7 @@ import profile from "../assets/images/ankita-main.png";
 
 function Hero() {
   return (
-    <section className="hero container">
+    <section className="hero container " id="home">
       <div className="row align-items-center min-vh-100">
 
         <div className="col-lg-6">
@@ -27,7 +27,7 @@ function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/resume.docx"
               className="btn btn-outline-light"
             >
               Resume
