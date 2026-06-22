@@ -95,7 +95,7 @@ function About() {
     <h4>B.E. Information Technology</h4>
     <h6>Savitribai Phule Pune University</h6>
     <p>
-      Specialized in Software Development, Database Management Systems, Distributed Systems, 
+      Specialized in Information Technology, Database Management Systems, Distributed Systems, 
       Machine Learning, and Web Technologies.
     </p>
   </div>

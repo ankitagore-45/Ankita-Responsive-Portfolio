@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="hero-section" id="home">
 
-      <Galaxy />
+      {/* <Galaxy /> */}
 
       <div className="container hero-content">
         <div className="row align-items-center min-vh-100">
