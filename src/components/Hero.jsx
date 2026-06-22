@@ -1,49 +1,56 @@
 import profile from "../assets/images/ankita-main.png";
+import Galaxy from "./Galaxy";
 
 function Hero() {
   return (
-    <section className="hero container " id="home">
-      <div className="row align-items-center min-vh-100">
+    <section className="hero-section" id="home">
 
-        <div className="col-lg-6">
-          <p className="accent">HELLO, I'M</p>
+      <Galaxy />
 
-          <h1 className="display-2 fw-bold">
-            Ankita Gore
-          </h1>
+      <div className="container hero-content">
+        <div className="row align-items-center min-vh-100">
 
-          <h3 className="text-warning mb-4">
-            Full Stack Java Developer
-          </h3>
+          <div className="col-lg-6">
+            <p className="accent">HELLO, I'M</p>
 
-          <p className="lead">
-            Building scalable web applications using
-            Java, Spring Boot, SQL and React.
-          </p>
+            <h1 className="display-2 fw-bold">
+              Ankita Gore
+            </h1>
 
-          <div className="mt-4">
-            <a href="#projects" className="btn btn-warning me-3">
-              View Projects
-            </a>
+            <h3 className="text-warning mb-4">
+              Frontend Developer | Full Stack Java Developer
+            </h3>
 
-            <a
-              href="/resume.docx"
-              className="btn btn-outline-light"
-            >
-              Resume
-            </a>
+            <p className="lead">
+              Building scalable web applications using
+              Java, Spring Boot, SQL and React.
+            </p>
+
+            <div className="mt-4">
+              <a href="#projects" className="btn btn-warning me-3">
+                View Projects
+              </a>
+
+              <a
+                href="/resume.docx"
+                className="btn btn-outline-light"
+              >
+                Resume
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div className="col-lg-6 text-center">
-          <img
-            src={profile}
-            className="hero-image"
-            alt="Ankita"
-          />
-        </div>
+          <div className="col-lg-6 text-center">
+            <img
+              src={profile}
+              className="hero-image"
+              alt="Ankita"
+            />
+          </div>
 
+        </div>
       </div>
+
     </section>
   );
 }

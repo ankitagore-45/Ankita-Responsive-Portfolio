@@ -61,6 +61,31 @@ body{
 footer{
   border-top:1px solid #334155;
 }
+.hero{
+  position:relative;
+  overflow:hidden;
+}
+
+.hero-bg{
+  position:absolute;
+  inset:0;
+  z-index:0;
+}
+
+.hero .container{
+  position:relative;
+  z-index:2;
+}
+.hero-image{
+  width:350px;
+  height:450px;
+  object-fit:cover;
+  border-radius:30px;
+
+  filter: grayscale(20%);
+  user-select:none;
+  pointer-events:none;
+}
 
 @media(max-width:768px){
 
