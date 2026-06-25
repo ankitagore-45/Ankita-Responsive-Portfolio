@@ -35,18 +35,18 @@ function About() {
 
       <div className="col-lg-5">
         <div className="stat-card">
-          <h2>5+</h2>
+          <h2>4+</h2>
           <p>Projects Built</p>
         </div>
 
         <div className="stat-card mt-3">
           <h2>1</h2>
-          <p>Research Paper</p>
+          <p>Research Publication</p>
         </div>
 
         <div className="stat-card mt-3">
-          <h2>Internship Experience</h2>
-          <p>Years Experience</p>
+          <h2>Industry</h2>
+          <p>Internship Experience</p>
         </div>
       </div>
 

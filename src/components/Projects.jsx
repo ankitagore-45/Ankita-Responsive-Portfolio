@@ -7,15 +7,15 @@ function Projects() {
     {
       title: "Smart Hospital Management System",
      // image: hospital,
-      desc: "Full-stack web application with role-based authentication, appointment scheduling, patient management, and interactive dashboards.",
-      tech: "Java, Spring Boot, MySQL, React",
+      desc: "Full-stack web application  Developed modules for Admin, Doctor, and Patient with appointment scheduling, patient management, REST APIs, and MySQL integration.",
+      tech: "Java, Spring Boot, MySQL,JavaScript",
       live: "https://spring-smarthospitalmanagementsystem-6.onrender.com/",
       github: "https://github.com/ankitagore-45"
     },
     {
       title: "Weather Application",
      // image: weather,
-      desc: "Real-time weather updates using API integration and responsive UI.",
+      desc: "Developed a responsive React application that fetches and displays real-time weather information using REST APIs.",
       tech: "React, API, Bootstrap",
       live: "https://weather-react-ashy-tau.vercel.app/",
       github: "https://github.com/ankitagore-45"
@@ -23,7 +23,7 @@ function Projects() {
     {
       title: "A Piece Of Me",
      // image: magical,
-      desc: "Creative personal web experience showcasing animations and storytelling.",
+      desc: "Responsive personal website demonstrating advanced HTML, CSS, JavaScript animations, responsive layouts, and interactive UI components.",
       tech: "HTML, CSS, JavaScript",
       live: "https://ankitagore-45.github.io/a-piece-of-me/",
       github: "https://github.com/ankitagore-45"

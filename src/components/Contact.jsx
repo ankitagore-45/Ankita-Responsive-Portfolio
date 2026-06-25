@@ -9,12 +9,11 @@ function Contact() {
           <p className="section-tag">GET IN TOUCH</p>
 
           <h2 className="section-title">
-            Let's Build Something Amazing Together
+            Let's Connect
           </h2>
 
           <p className="contact-subtitle">
-            Looking for Full Stack Java Developer opportunities,
-            freelance work, internships and collaborations.
+            Looking for Full Stack Java Developer, Software Engineer, Internship, and Entry-Level opportunities.
           </p>
         </div>
 
